@@ -1,24 +1,24 @@
 {
-    "name": "rumnwwx/mvc_practic",
-    "description": "mvc framework",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "elpev",
-            "email": "elchaninapolina@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": "^7.4 | ^8.0",
-        "illuminate/database": "^13.0@dev",
-        "illuminate/events": "^13.0@dev"
-    },
-    "autoload": {
-        "psr-4": {
-            "Src\\": "core/Src/",
-            "": "app/"
-        }
+  "name": "rumnwwx/mvc_practic",
+  "description": "mvc framework",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "elpev",
+      "email": "elchaninapolina@gmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4 | ^8.0",
+    "illuminate/database": "^10.0@dev",
+    "illuminate/events": "^10.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "core/Src/",
+      "": "app/"
+    }
+  }
 }
